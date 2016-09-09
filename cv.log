@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.22)  9 SEP 2016 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.24)  9 SEP 2016 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -774,11 +774,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20077 strings out of 494910
- 332322 string characters out of 6179836
+ 20073 strings out of 494910
+ 332276 string characters out of 6179836
  410543 words of memory out of 5000000
  23143 multiletter control sequences out of 15000+600000
- 45774 words of font info for 59 fonts, out of 8000000 for 9000
+ 45572 words of font info for 57 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  61i,12n,50p,10354b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-
@@ -789,7 +789,7 @@ re/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmsy10.pfb>
-Output written on cv.pdf (2 pages, 130942 bytes).
+Output written on cv.pdf (2 pages, 130941 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
