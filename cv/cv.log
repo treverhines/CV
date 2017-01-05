@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.24)  9 SEP 2016 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.22)  5 JAN 2017 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,14 +735,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/sl' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 88.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 87.
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 87.
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 88.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 87.
 
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -753,8 +753,6 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
-
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 36.71997pt.
@@ -762,10 +760,19 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 36.71997pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
  (./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: FD8EF04A9A0A16A2D86A46220E56A531;1060.
 
@@ -774,11 +781,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20073 strings out of 494910
- 332276 string characters out of 6179836
- 410543 words of memory out of 5000000
+ 20078 strings out of 494910
+ 332330 string characters out of 6179836
+ 409543 words of memory out of 5000000
  23143 multiletter control sequences out of 15000+600000
- 45572 words of font info for 57 fonts, out of 8000000 for 9000
+ 45774 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  61i,12n,50p,10354b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-
@@ -789,10 +796,10 @@ re/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmsy10.pfb>
-Output written on cv.pdf (2 pages, 130941 bytes).
+Output written on cv.pdf (3 pages, 131782 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  14921 words of extra memory for PDF output out of 17280 (max. 10000000)
 
