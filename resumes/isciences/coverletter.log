@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.22)  28 NOV 2016 21:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.22)  14 APR 2017 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1050,11 +1050,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20242 strings out of 494910
- 332424 string characters out of 6179836
+ 20246 strings out of 494910
+ 332474 string characters out of 6179836
  406079 words of memory out of 5000000
  23342 multiletter control sequences out of 15000+600000
- 31513 words of font info for 41 fonts, out of 8000000 for 9000
+ 31715 words of font info for 43 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  65i,12n,51p,10363b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texlive/texmf-
@@ -1063,7 +1063,7 @@ dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texmf/fonts/enc
 me/FontAwesome.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on coverletter.pdf (1 page, 84602 bytes).
+Output written on coverletter.pdf (1 page, 83915 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
