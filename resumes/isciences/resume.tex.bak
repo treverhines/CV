@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} 
+
+\moderncvstyle{casual} 
+\moderncvcolor{blue} 
+
+\usepackage[scale=0.78]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Trever T.} % Your first name
+\familyname{Hines} % Your last name
+\address{2534 CC Little Bldg}{1100 North University Ave}{Ann Arbor, MI 48109-1005}
+\phone{(217) 766 4445}
+\social[github]{treverhines}
+\email{hinest@umich.edu}
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\makecvtitle % Print the CV title
+\vspace*{-1cm}
+% Stuff to say
+% Kalman filtering, to handle real-time data integration
+% Radial Basis functions and stochastic modeling, for flexible nonparametric modeling 
+
+\section{Education}
+\cvitem{2012--present}{\textbf{PhD candidate Geophysics (certificate in Computational Engineering)},
+                       \newline \textit{University of Michigan}, Ann Arbor, MI}
+                       
+\cvitem{2008-2012}{\textbf{BS Geology}, \textit{University of Illinois}, Urbana-Champaign, IL}
+
+\section{Research Experience}
+
+\cvitem{2012--present}{\textbf{Graduate student research assistant}, \textit{University of Michigan}
+			          \begin{itemize}
+                       \item Developed software to detect spatially and temporally coherent features in 
+                             ground motion data
+                       \item Introduced novel techniques to infer the geophysical processes causing observable 
+                             ground deformation          
+                       \end{itemize}}\vspace*{-4mm}
+\cvitem{2011}{\textbf{Ecological modeling intern}, \textit{Smithsonian Environmental Research Center}
+              \begin{itemize}
+              \item Used R and ArcGIS to create statistical models describing blue crab populations 
+              	   in Chesapeake Bay   
+              \end{itemize}}\vspace*{-6mm}       
+
+\section{Teaching Experience}
+\cvitem{2014--2016}{\textbf{Graduate student instructor}, \textit{University of Michigan}
+                       \begin{itemize}
+                       \item Instructed labs for a graduate level course on data analysis and 
+                             inverse theory
+                       \item Topics included statistical hypothesis testing, uncertainty quantification with 
+                             bootstrapping, and model selection techniques such as cross validation and Bayesian 
+                             information criterion. 
+                       \end{itemize}}\vspace*{-4mm}
+                               
+\cvitem{2015}{\textbf{Michigan Math and Science Scholars instructor}, \textit{University of Michigan}
+              \begin{itemize}
+              \item Co-taught a summer course for high school students on the mathematics of natural 
+                    hazards
+              \end{itemize}}\vspace*{-6mm}
+               
+\section{Proficiencies}
+\cvitem{}{\begin{itemize}
+                  \item Geospatial analysis using free software packages such as Basemap and Shapely
+                  \item Bayesian statistics and supervised machine learning
+                  \item Python, Cython, MATLAB, R, Bash, \LaTeX
+                  \end{itemize}}\vspace*{-4mm}
+
+
+
+\section{Recent Publications}
+\cvitem{2017}{Hines, T. T., and E. A. Hetland. Unbiased characterization of noise in geodetic data. submitted to \textit{Journal of Geodesy}}
+\cvitem{2016}{Hines, T. T., and E. A. Hetland. Rheologic constraints on the upper mantle from 
+              five years of postseismic deformation following the El Mayor-Cucapah earthquake. 
+              \textit{J. Geophys. Res.}, 121, doi: 10.1002/2016JB013114}
+\cvitem{2016}{Hines, T. T., and E. A. Hetland. Rapid and simultaneous estimation of fault slip 
+              and heterogeneous lithospheric viscosity from post-seismic deformation. 
+              \textit{Geophys. J. Int.}, 204, doi: 10.1093/gji/ggv477}  
+            
+\end{document}
