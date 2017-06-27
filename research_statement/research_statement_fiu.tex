@@ -1,0 +1,41 @@
+%% start of file `template.tex'.
+\documentclass[11pt,a4paper,sans]{moderncv}   
+
+% moderncv themes
+\moderncvstyle{casual}   
+\moderncvcolor{blue}   
+
+\usepackage[utf8]{inputenc}                    
+% adjust the page margins
+\usepackage[scale=0.78,left=0.75in,right=0.75in]{geometry}
+% personal data
+
+\firstname{Trever T.} % Your first name
+\familyname{Hines} % Your last name
+\address{2534 CC Little Bldg}{1100 North University Ave}{Ann Arbor, MI 48109-1005}
+\phone{(217) 766 4445}
+\social[github]{treverhines}
+\email{hinest@umich.edu}
+
+
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Dr. Shimon Wdowinski}{Department of Earth and Environment
+                                 \newline Florida International University}
+\date{June 27, 2017}
+\opening{Dear Dr. Wdowinski,}
+\closing{Sincerely,}
+\makelettertitle
+
+I am a graduate student in geophysics at the University of Michigan. I anticipate defending my dissertation on August 16, 2017. In general, my research involves analyzing GNSS data to better understand tectonic processes. The first three years of my graduate studies were focused on constraining rheologic models of the lithosphere to describe interseismic and postseismic deformation. It is particularly difficult to constrain a rheologic model from postseismic deformation because there are multiple deformation mechanisms occurring simultaneously, namely afterslip and viscoelastic relaxation. One of my projects was on developing an inverse method to simultaneously estimate lithospheric viscosity and afterslip from postseismic deformation. I successfully applied this method to deformation following the 2010 El Mayor-Cucapah earthquake.
+
+Recently, I have deviated from mechanical modeling and my research has taken more of a data analysis approach. One of my recent manuscripts is a short note where I propose using an alternative method for characterizing correlated noise in GNSS time series. This method does not suffer from the bias that is inherent in the more standard maximum likelihood method developed by John Langbein. In another recent manuscript, I discuss how a Bayesian machine learning technique, known as Gaussian process regression, can be used to identify transient strain in GNSS data. In this paper, I assume a prior spatio-temporal stochastic model to describe transient displacements. Transient strain is then estimated by spatially differentiating the posterior displacements. I have used this method to identify strain resulting from slow slip events in the Pacific Northwest. I am excited about this project because it really does reveal features that are not immediately apparent from the displacement data. This is in part because my estimates of transient strain are insensitive to common mode error, which can obscure signal in the displacement data. A software implementation of this method is named Python-based Geodetic Network Strain software (PyGeoNS), and you can find it at www.github.com/treverhines/PyGeoNS.       
+
+My background makes me well qualified for the proposed project on fault mechanics and earthquake triggering. I am familiar with fault mechanics and the various numerical and analytical tools used for such problems. I also think that there is potential to incorporate PyGeoNS into this project. PyGeoNS can make direct observation of horizontal strain and it may be worth exploring whether these observations explain increased seismicity. 
+
+Please let me know if you would like any more information or copies of my manuscripts. Thank you for your consideration and I look forward to your reply.                        
+
+\makeletterclosing
+
+\end{document}
