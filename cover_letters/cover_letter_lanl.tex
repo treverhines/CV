@@ -1,0 +1,42 @@
+%% start of file `template.tex'.
+\documentclass[11pt,a4paper,sans]{moderncv}   
+
+% moderncv themes
+\moderncvstyle{casual}   
+\moderncvcolor{blue}   
+
+\usepackage[utf8]{inputenc}                    
+% adjust the page margins
+\usepackage[scale=0.78,left=0.75in,right=0.75in]{geometry}
+% personal data
+
+\firstname{Trever T.} % Your first name
+\familyname{Hines} % Your last name
+\address{2534 CC Little Bldg}{1100 North University Ave}{Ann Arbor, MI 48109-1005}
+\phone{(217) 766 4445}
+\social[github]{treverhines}
+\email{hinest@umich.edu}
+
+
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{\ }{}
+\date{June 28, 2017}
+\opening{Dear Dr. Godinez and Dr. Osthus,}
+\closing{Sincerely,}
+\makelettertitle
+
+I am a doctoral student in geophysics at the University of Michigan. I anticipate defending my dissertation on August 16, 2017. My dissertation is on detecting tectonic ground deformation, with high precision geodetic instruments, and then using this deformation to better understand the mechanical behavior of the Earth. Throughout my research, I have become adept at geophysical inverse problems, numerical modeling, and data analysis. I elaborate on my experience in these fields below.
+
+My first three publications were pertaining to geophysical inverse problems. In these papers I explored how the mechanical behavior of the Earth's crust can be inferred from ground deformation during earthquakes and between earthquakes. I developed a novel technique to identify the physical mechanisms causing ground deformation that can often be observed in the years following large earthquakes. This deformation can be attributed to slow fault slip or to crustal rocks that are deforming viscously to relax stresses accumulated from the earthquake. It can be difficult to distinguish between these mechanisms purely based on ground deformation, and the inverse problem is made more difficult by the sparse and noisy nature of geodetic data. For this reason, I recognize the necessity of thoroughly quantifying the uncertainties on estimated geophysical parameters. I generally approach inverse problems from a Bayesian perspective, which naturally results in a probabilistic solution, and I have become experienced with techniques such as Kalman filtering and Markov Chain Monte Carlo methods.   
+
+A significant component of my research has involved numerical modeling of three-dimensional elastic and plastic continua. Most of my numerical modeling was done with open-source finite element software. I am currently developing software for a meshfree numerical method of solving three-dimensional elastostatics problems. This software is part of a collaborative project studying the effect of topographic stress on faults. Since my software is intended to be used and modified by my colleagues, I have ensured that my code is clean and well documented. I also recognize the importance of writing high-performance software, and so I have made judicious use of Cython in my project. Cython is a language with Python syntax, C-level performance, and a seamless interface with OpenMP. You can find my project at www.github.com/treverhines/RBF.
+
+Over the past year, I have become interested in analysis that is purely based on the data itself and does not require physical modeling. For example, one of my recently submitted manuscripts is on using maximum likelihood methods to quantify noise in geodetic data. In another recently submitted manuscript, I discuss how Gaussian process regression can be used as a non-parametric method for detecting geophysical signal in geodetic data. I use a Bayesian hierarchical approach in this study, where I explore the space of prior hyper-parameters as well as the space of prior covariance function to describe the geophysical signal. I have successfully used Gaussian process regression on geodetic data in the Pacific Northwest to detect slow slip events on the Cascadia subduction zone. The software that performs this analysis is named Python-based Geodetic Network Strain software (PyGeoNS), and you can find it at www.github.com/treverhines/PyGeoNS.   
+
+I believe that my experience makes me well qualified for this postdoc position. Please let me know if you would like any more information. Thank you for your consideration and I look forward to your reply.                                              
+
+\makeletterclosing
+
+\end{document}
